@@ -6,6 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6A1163122CE2B9D300DF9CC2 /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = 6A1163112CE2B9D300DF9CC2 /* MarkdownUI */; };
+		6A79F7842CE94FCB001EE8E1 /* ErrorMesageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A79F7832CE94FCB001EE8E1 /* ErrorMesageView.swift */; };
+		6A79F7862CEA91F7001EE8E1 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A79F7852CEA91F4001EE8E1 /* Data.swift */; };
+		6AE8A2912CE6380100539333 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AE8A2842CE6380100539333 /* Preview Assets.xcassets */; };
+		6AE8A2922CE6380100539333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AE8A2862CE6380100539333 /* Assets.xcassets */; };
+		6AE8A2942CE6380100539333 /* ChatAssistantMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8A2872CE6380100539333 /* ChatAssistantMessageView.swift */; };
+		6AE8A2952CE6380100539333 /* ChatBotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8A2892CE6380100539333 /* ChatBotApp.swift */; };
+		6AE8A2962CE6380100539333 /* ChatUserMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8A28A2CE6380100539333 /* ChatUserMessageView.swift */; };
+		6AE8A2972CE6380100539333 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8A28B2CE6380100539333 /* ChatView.swift */; };
+		6AE8A2982CE6380100539333 /* ChatViewDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8A28C2CE6380100539333 /* ChatViewDataModel.swift */; };
+		6AE8A29A2CE6380100539333 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8A28F2CE6380100539333 /* Item.swift */; };
+		6AE8A2A42CE6AA4600539333 /* ChatInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8A2A32CE6AA4600539333 /* ChatInputView.swift */; };
+		6AE8A2A72CE7479200539333 /* ChatSuggestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8A2A62CE7479200539333 /* ChatSuggestionView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		6A1162EC2CE2A60E00DF9CC2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,44 +43,28 @@
 		6A1162D72CE2A60C00DF9CC2 /* ChatBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A1162EB2CE2A60E00DF9CC2 /* ChatBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A1162F52CE2A60E00DF9CC2 /* ChatBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A79F7832CE94FCB001EE8E1 /* ErrorMesageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMesageView.swift; sourceTree = "<group>"; };
+		6A79F7852CEA91F4001EE8E1 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		6AE8A2842CE6380100539333 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6AE8A2862CE6380100539333 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AE8A2872CE6380100539333 /* ChatAssistantMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAssistantMessageView.swift; sourceTree = "<group>"; };
+		6AE8A2882CE6380100539333 /* ChatBot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChatBot.entitlements; sourceTree = "<group>"; };
+		6AE8A2892CE6380100539333 /* ChatBotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotApp.swift; sourceTree = "<group>"; };
+		6AE8A28A2CE6380100539333 /* ChatUserMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUserMessageView.swift; sourceTree = "<group>"; };
+		6AE8A28B2CE6380100539333 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		6AE8A28C2CE6380100539333 /* ChatViewDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewDataModel.swift; sourceTree = "<group>"; };
+		6AE8A28E2CE6380100539333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AE8A28F2CE6380100539333 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		6AE8A2A32CE6AA4600539333 /* ChatInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInputView.swift; sourceTree = "<group>"; };
+		6AE8A2A62CE7479200539333 /* ChatSuggestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSuggestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		6A1162FD2CE2A60E00DF9CC2 /* Exceptions for "ChatBot" folder in "ChatBot" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 6A1162D62CE2A60C00DF9CC2 /* ChatBot */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		6A1162D92CE2A60C00DF9CC2 /* ChatBot */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				6A1162FD2CE2A60E00DF9CC2 /* Exceptions for "ChatBot" folder in "ChatBot" target */,
-			);
-			path = ChatBot;
-			sourceTree = "<group>";
-		};
-		6A1162EE2CE2A60E00DF9CC2 /* ChatBotTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ChatBotTests;
-			sourceTree = "<group>";
-		};
-		6A1162F82CE2A60E00DF9CC2 /* ChatBotUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ChatBotUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6A1162D42CE2A60C00DF9CC2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A1163122CE2B9D300DF9CC2 /* MarkdownUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,9 +88,8 @@
 		6A1162CE2CE2A60C00DF9CC2 = {
 			isa = PBXGroup;
 			children = (
-				6A1162D92CE2A60C00DF9CC2 /* ChatBot */,
-				6A1162EE2CE2A60E00DF9CC2 /* ChatBotTests */,
-				6A1162F82CE2A60E00DF9CC2 /* ChatBotUITests */,
+				6AE8A2902CE6380100539333 /* ChatBot */,
+				6A1163102CE2B9D300DF9CC2 /* Frameworks */,
 				6A1162D82CE2A60C00DF9CC2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +102,42 @@
 				6A1162F52CE2A60E00DF9CC2 /* ChatBotUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		6A1163102CE2B9D300DF9CC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AE8A2852CE6380100539333 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6AE8A2842CE6380100539333 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6AE8A2902CE6380100539333 /* ChatBot */ = {
+			isa = PBXGroup;
+			children = (
+				6AE8A2852CE6380100539333 /* Preview Content */,
+				6AE8A2862CE6380100539333 /* Assets.xcassets */,
+				6AE8A2882CE6380100539333 /* ChatBot.entitlements */,
+				6A79F7852CEA91F4001EE8E1 /* Data.swift */,
+				6AE8A2892CE6380100539333 /* ChatBotApp.swift */,
+				6AE8A28B2CE6380100539333 /* ChatView.swift */,
+				6AE8A2A32CE6AA4600539333 /* ChatInputView.swift */,
+				6AE8A28A2CE6380100539333 /* ChatUserMessageView.swift */,
+				6AE8A2872CE6380100539333 /* ChatAssistantMessageView.swift */,
+				6AE8A2A62CE7479200539333 /* ChatSuggestionView.swift */,
+				6AE8A28C2CE6380100539333 /* ChatViewDataModel.swift */,
+				6A79F7832CE94FCB001EE8E1 /* ErrorMesageView.swift */,
+				6AE8A28E2CE6380100539333 /* Info.plist */,
+				6AE8A28F2CE6380100539333 /* Item.swift */,
+			);
+			path = ChatBot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,11 +155,9 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				6A1162D92CE2A60C00DF9CC2 /* ChatBot */,
-			);
 			name = ChatBot;
 			packageProductDependencies = (
+				6A1163112CE2B9D300DF9CC2 /* MarkdownUI */,
 			);
 			productName = ChatBot;
 			productReference = 6A1162D72CE2A60C00DF9CC2 /* ChatBot.app */;
@@ -142,9 +175,6 @@
 			);
 			dependencies = (
 				6A1162ED2CE2A60E00DF9CC2 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				6A1162EE2CE2A60E00DF9CC2 /* ChatBotTests */,
 			);
 			name = ChatBotTests;
 			packageProductDependencies = (
@@ -165,9 +195,6 @@
 			);
 			dependencies = (
 				6A1162F72CE2A60E00DF9CC2 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				6A1162F82CE2A60E00DF9CC2 /* ChatBotUITests */,
 			);
 			name = ChatBotUITests;
 			packageProductDependencies = (
@@ -208,6 +235,9 @@
 			);
 			mainGroup = 6A1162CE2CE2A60C00DF9CC2;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				6A11630F2CE2B9A500DF9CC2 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6A1162D82CE2A60C00DF9CC2 /* Products */;
 			projectDirPath = "";
@@ -225,6 +255,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AE8A2912CE6380100539333 /* Preview Assets.xcassets in Resources */,
+				6AE8A2922CE6380100539333 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +281,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AE8A2942CE6380100539333 /* ChatAssistantMessageView.swift in Sources */,
+				6AE8A2A42CE6AA4600539333 /* ChatInputView.swift in Sources */,
+				6AE8A2952CE6380100539333 /* ChatBotApp.swift in Sources */,
+				6AE8A2962CE6380100539333 /* ChatUserMessageView.swift in Sources */,
+				6A79F7862CEA91F7001EE8E1 /* Data.swift in Sources */,
+				6AE8A2972CE6380100539333 /* ChatView.swift in Sources */,
+				6AE8A2982CE6380100539333 /* ChatViewDataModel.swift in Sources */,
+				6AE8A2A72CE7479200539333 /* ChatSuggestionView.swift in Sources */,
+				6AE8A29A2CE6380100539333 /* Item.swift in Sources */,
+				6A79F7842CE94FCB001EE8E1 /* ErrorMesageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +330,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ChatBot/ChatBot.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ChatBot/Preview Content\"";
@@ -313,6 +356,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = online.carlosmasilva.ChatBot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -328,6 +372,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ChatBot/ChatBot.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ChatBot/Preview Content\"";
@@ -353,6 +398,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = online.carlosmasilva.ChatBot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -606,6 +652,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6A11630F2CE2B9A500DF9CC2 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gonzalezreal/swift-markdown-ui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6A1163112CE2B9D300DF9CC2 /* MarkdownUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A11630F2CE2B9A500DF9CC2 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
+			productName = MarkdownUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6A1162CF2CE2A60C00DF9CC2 /* Project object */;
 }
